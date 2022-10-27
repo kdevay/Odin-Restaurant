@@ -10,9 +10,9 @@ button:hover{
 #content {
     width:100%;
     background-color: #71848f;
-    height: 100vh;
+    height: 100%;
     display: grid;
-    grid-template: 145px 1fr 10fr / 1fr;
+    grid-template: 2fr 1fr 10fr / 1fr;
 }
 
 #header {
@@ -20,12 +20,12 @@ button:hover{
     font-family: 'Saira', sans-serif;
     background-color: #033981;
     color: #ebdad9;
-    font-size: 4em;
+    font-size: 7vh;
     border: 7px solid #f3ebeb;
     border-left: none;
     box-shadow: 0px 2px 26px 5px rgb(36 35 35);
     margin: 0px;
-    height: 130px;
+    height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,8 +77,9 @@ button {
     justify-content: center;
     align-content: center;
     align-items: center;
-    /* background-color: rgb(245, 233, 174);
-    border: 10px solid #5e2121; */
+    width: 100%;
+    height: 80vh;
+    /*  */
 }
 #storefront {
     /* display: none; */
@@ -87,7 +88,10 @@ button {
 }
 
 #menu-tab {
+    width: 70vw;
     padding: 30px 20px;
+    background-color: rgb(245, 233, 174);
+    border: 10px solid #5e2121;
     /* display: grid; */
     grid-template: 1fr 4fr / 1fr 1fr;
     justify-items: center;
@@ -106,6 +110,9 @@ button {
     grid-area: 1 / 2 / 3 / 3;
 }
 #about-tab{
+    width: 70vw;
+    background-color: rgb(245, 233, 174);
+    border: 10px solid #5e2121;
     /* display: flex; */
     /* display: none; */
     justify-content: center;

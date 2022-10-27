@@ -174,10 +174,7 @@ function changeTab(e) {
 
     // If home button clicked
     if (id === 'h-button') {
-        // Change button backgrounds & remove body styling
         changeButtonStyling('h', 'm', 'a');
-        body.style.backgroundColor = 'rgb(245, 233, 174, 0)';
-        body.style.border = 'none';
         // Display image tab, hide others
         storefront.style.display = 'block';
         menuTab.style.display = 'none';
@@ -185,10 +182,7 @@ function changeTab(e) {
 
     // If about button clicked
     } else if (id === 'm-button') {
-        // Change button backgrounds & set body to default
         changeButtonStyling('m', 'h', 'a');
-        body.style.backgroundColor = 'rgb(245, 233, 174)';
-        body.style.border = '10px solid #5e2121';
         // Display about, hide others
         menuTab.style.display = 'grid';
         storefront.style.display = 'none';
@@ -196,10 +190,7 @@ function changeTab(e) {
 
     // If menu button clicked
     } else {
-        // Change button backgrounds & set body to default
         changeButtonStyling('a', 'h', 'm');
-        body.style.backgroundColor = 'rgb(245, 233, 174)';
-        body.style.border = '10px solid #5e2121';
         // Display menu, hide others
         aboutTab.style.display = 'flex';
         storefront.style.display = 'none';
