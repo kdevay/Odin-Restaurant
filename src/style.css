@@ -5,6 +5,10 @@
 button:hover{
     cursor: pointer;
 }
+body{
+    width: 100%;
+    background-color: #71848f;
+}
 
 #content {
     background-color: #71848f;
